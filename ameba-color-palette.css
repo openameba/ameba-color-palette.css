@@ -5,6 +5,7 @@
   /* Grayscale */
   --clr-black-a80: rgba(0, 0, 0, 0.8);
   --clr-black-a50: rgba(0, 0, 0, 0.5);
+  --clr-black-a10: rgba(0, 0, 0, 0.1);
   --clr-black-a5: rgba(0, 0, 0, 0.05);
   --clr-darkgray: #333;
   --clr-dimgray: #666;
@@ -24,6 +25,7 @@
   --clr-red: #f24c3b;
   --clr-orange: #fe9019;
   --clr-yellow: #f8cd21;
+  --clr-lightyellow: #fcfae8;
   --clr-gold: #cea65c;
   --clr-bronze: #b98353;
 
