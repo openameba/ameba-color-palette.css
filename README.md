@@ -4,7 +4,7 @@
 
 Ameba Color Palette.
 
-This repository includes the design guidelines and the custom properties (css) at Ameba. This color pallet is used in ameblo.jp and Ameba Apps.
+This repository includes the design guidelines and the custom properties (css) at Ameba. This color palette is used in ameblo.jp and Ameba Apps.
 
 ```
 npm install ameba-color-palette.css
