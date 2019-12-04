@@ -1,6 +1,7 @@
 # ameba-color-palette.css
 
 [![Build Status](https://travis-ci.org/openameba/ameba-color-palette.css.svg?branch=master)](https://travis-ci.org/openameba/ameba-color-palette.css)
+[![dependabot](https://api.dependabot.com/badges/status?host=github&repo=openameba/ameba-color-palette.css)](https://dependabot.com)
 
 Ameba Color Palette.
 
