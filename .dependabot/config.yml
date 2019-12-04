@@ -1,0 +1,16 @@
+version: 1
+
+update_configs:
+  - package_manager: javascript
+    directory: /
+    update_schedule: weekly
+    default_assignees:
+      - herablog
+      - sasaplus1
+      - tokimari
+    default_labels:
+      - dependabot
+    automerged_updates:
+      - match:
+          dependency_type: all
+          update_type: all
