@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base",
+    "group:linters",
+    ":automergeAll",
+    ":label(renovate)",
+    ":preserveSemverRanges",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "assignees": [
+    "herablog",
+    "sasaplus1",
+    "tokimari"
+  ]
+}
