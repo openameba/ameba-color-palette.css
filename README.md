@@ -1,7 +1,7 @@
 # ameba-color-palette.css
 
 [![test](https://github.com/openameba/ameba-color-palette.css/workflows/test/badge.svg)](https://github.com/openameba/ameba-color-palette.css/actions?query=workflow%3Atest)
-[![dependabot](https://api.dependabot.com/badges/status?host=github&repo=openameba/ameba-color-palette.css)](https://dependabot.com)
+[![renovate](https://badges.renovateapi.com/github/openameba/ameba-color-palette.css)](https://renovatebot.com)
 
 Ameba Color Palette.
 
