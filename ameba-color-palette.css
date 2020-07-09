@@ -80,13 +80,6 @@
   --black-20-alpha: rgba(0, 0, 0, 0.2);
   --black-10-alpha: rgba(0, 0, 0, 0.1);
   --black-5-alpha: rgba(0, 0, 0, 0.05);
-  --expressive-blue: #4795c8;
-  --expressive-green: #4ac3aa;
-  --expressive-purple: #ca5ce6;
-  --expressive-lavender: #755ce6;
-  --expressive-orange: #e6815c;
-  --expressive-yellow: #e6ac5c;
-  --expressive-pink: #e6456a;
   --caution-red-100: #d91c0b;
   --caution-red-20-alpha: rgba(217, 28, 11, 0.2);
   --caution-red-5-alpha: rgba(217, 28, 11, 0.05);
@@ -99,14 +92,18 @@
   --twitter-blue: #1da1f2;
   --instagram-pink: #f20076;
 
-  /* System Color */
+  /* System Colors */
   --focus-blue-100: #0091ff;
   --focus-blue-30-alpha: rgba(0, 145, 255, 0.3);
 
   /**
    * Ameba System Color
    */
+
+  /* Background Colors */
   --color-background: var(--gray-5);
+
+  /* Surface Colors */
   --color-surface-primary: var(--white-100);
   --color-surface-secondary: var(--gray-5);
   --color-surface-tertiary: var(--gray-10);
@@ -120,8 +117,7 @@
   --color-surface-twitter-blue: var(--twitter-blue);
   --color-surface-instagram-pink: var(--instagram-pink);
 
-  /* TODO: expressive colorの追加の検討 */
-
+  /* Text Colors */
   --color-text-high-emphasis: var(--gray-100);
   --color-text-mid-emphasis: var(--gray-70-alpha);
   --color-text-low-emphasis: var(--gray-60-alpha);
@@ -130,8 +126,13 @@
   --color-text-accent-primary: var(--primary-green-80);
   --color-text-accent-secondary: var(--secondary-green-70);
   --color-text-caution: var(--caution-red-100);
+
+  /* Highlight Colors */
   --color-highlight-error: var(--caution-red-20);
   --color-highlight-hover: var(--black-30-alpha);
+  --color-highlight-error: var(--caution-red-20);
+
+  /* Object Colors */
   --color-object-high-emphasis: var(--gray-100);
   --color-object-mid-emphasis: var(--gray-70-alpha);
   --color-object-low-emphasis: var(--gray-60-alpha);
@@ -140,11 +141,12 @@
   --color-object-accent-secondary: var(--secondary-green-70);
   --color-object-caution: var(--caution-red-100);
   --color-object-high-emphasis-inverse: var(--white-100);
+
+  /* Focus Colors */
   --color-focus-clarity: var(--focus-blue-100);
   --color-focus-ambiguous: var(--focus-blue-30-alpha);
 
-  /* TODO: expressive colorのobjectへの追加の検討 */
-
+  /* Border Colors */
   --color-border-high-emphasis: var(--gray-60-alpha);
   --color-border-mid-emphasis: var(--gray-30-alpha);
   --color-border-low-emphasis: var(--gray-10-alpha);
