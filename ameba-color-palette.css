@@ -116,9 +116,11 @@
   --color-surface-accent-secondary-light: var(--secondary-green-5);
   --color-surface-caution: var(--caution-red-100);
   --color-surface-caution-light: var(--caution-red-5-alpha);
+  --color-surface-facebook-blue: var(--facebook-blue);
+  --color-surface-twitter-blue: var(--twitter-blue);
+  --color-surface-instagram-pink: var(--instagram-pink);
 
-  /* TODO: expressive, 3rd partys colorをsurfaceにたすかどうか
-   * 色をそのまま使ってもよさそう */
+  /* TODO: expressive colorの追加の検討 */
 
   --color-text-high-emphasis: var(--gray-100);
   --color-text-mid-emphasis: var(--gray-70-alpha);
@@ -141,7 +143,7 @@
   --color-focus-clarity: var(--focus-blue-100);
   --color-focus-ambiguous: var(--focus-blue-30-alpha);
 
-  /* TODO: expressive colorをobjectに足すかどうか */
+  /* TODO: expressive colorのobjectへの追加の検討 */
 
   --color-border-high-emphasis: var(--gray-60-alpha);
   --color-border-mid-emphasis: var(--gray-30-alpha);
