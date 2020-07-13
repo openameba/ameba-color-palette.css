@@ -113,9 +113,6 @@
   --color-surface-accent-secondary-light: var(--secondary-green-5);
   --color-surface-caution: var(--caution-red-100);
   --color-surface-caution-light: var(--caution-red-5-alpha);
-  --color-surface-facebook-blue: var(--facebook-blue);
-  --color-surface-twitter-blue: var(--twitter-blue);
-  --color-surface-instagram-pink: var(--instagram-pink);
 
   /* Text Colors */
   --color-text-high-emphasis: var(--gray-100);
@@ -153,6 +150,11 @@
   --color-border-accent-primary: var(--primary-green-70);
   --color-border-high-emphasis-inverse: var(--white-100);
   --color-border-caution: var(--caution-red-100);
+
+  /* Third Party Colors */
+  --color-third-party-facebook-blue: var(--facebook-blue);
+  --color-third-party-twitter-blue: var(--twitter-blue);
+  --color-third-party-instagram-pink: var(--instagram-pink);
 }
 
 @media (prefers-color-scheme: dark) {
