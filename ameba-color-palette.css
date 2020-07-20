@@ -1,7 +1,10 @@
 /* custom properties https://www.w3.org/TR/css-variables/ */
 :root {
-  /* TEMP: Ameba color palette */
-  /* REVIEW: prefixどうしようかな、長くなるが */
+  /* Ameba Color Palette */
+
+  /**
+   * All Colors
+   */
 
   /* Brand Colors */
   --ameba-green: #2d8c3c;
@@ -23,7 +26,6 @@
   --primary-green-20: #a1d5a7;
   --primary-green-10: #c6e5c9;
   --primary-green-5: #e7f5e9;
-
   --secondary-green-100: #366600;
   --secondary-green-90: #427504;
   --secondary-green-80: #477d00;
@@ -35,9 +37,8 @@
   --secondary-green-20: #c2de99;
   --secondary-green-10: #daebc1;
   --secondary-green-5: #f0f7e6;
-
   --gray-100: #08121a;
-  --gray-90-alpha: rgba(8, 18, 26, 0.9);
+  --gray-90-alpha: rgba(8, 18, 26, 0.95);
   --gray-80-alpha: rgba(8, 18, 26, 0.8);
   --gray-70-alpha: rgba(8, 18, 26, 0.74);
   --gray-60-alpha: rgba(8, 18, 26, 0.61);
@@ -45,73 +46,115 @@
   --gray-40-alpha: rgba(8, 18, 26, 0.4);
   --gray-30-alpha: rgba(8, 18, 26, 0.3);
   --gray-20-alpha: rgba(8, 18, 26, 0.16);
-  --gray-10-alpha: rgba(8, 18, 26, 0.1);
+  --gray-10-alpha: rgba(8, 18, 26, 0.08);
   --gray-5-alpha: rgba(8, 18, 26, 0.04);
-  --gray-90: #212a31;
+  --gray-90: #141e25;
   --gray-80: #394148;
   --gray-70: #464d53;
   --gray-60: #686e73;
   --gray-50: #8b9093;
   --gray-40: #9ca0a3;
   --gray-30: #b5b8ba;
-  --gray-20: #d8d9da; /* QUESTION: #d7d9daもあるが、元データどっちが正しい？ */
-  --gray-10: #e6e7e8;
+  --gray-20: #d8d9da;
+  --gray-10: #ebeced;
   --gray-5: #f5f6f6;
-
   --white-100: #fff;
   --white-90-alpha: rgba(255, 255, 255, 0.9);
   --white-80-alpha: rgba(255, 255, 255, 0.8);
   --white-70-alpha: rgba(255, 255, 255, 0.7);
   --white-60-alpha: rgba(255, 255, 255, 0.6);
   --white-50-alpha: rgba(255, 255, 255, 0.5);
-  --white-40-alpha: rgba(255, 255, 255, 0.4);
+  --white-40-alpha: rgba(255, 255, 255, 0.43);
   --white-30-alpha: rgba(255, 255, 255, 0.3);
-  --white-20-alpha: rgba(255, 255, 255, 0.2);
+  --white-20-alpha: rgba(255, 255, 255, 0.16);
   --white-10-alpha: rgba(255, 255, 255, 0.1);
   --white-5-alpha: rgba(255, 255, 255, 0.05);
-
-  --expressive-blue: #4795c8;
-  --expressive-green: #4ac3aa;
-  --expressive-purple: #ca5ce6;
-  --expressive-lavender: #755ce6;
-  --expressive-orange: #e6815c;
-  --expressive-yellow: #e6ac5c;
-  --expressive-pink: #e6456a;
-
-  --caution-red: #d91c0b;
-  --caution-red-light: rgba(217, 28, 11, 0.05);
+  --black-100: #000;
+  --black-90-alpha: rgba(0, 0, 0, 0.9);
+  --black-80-alpha: rgba(0, 0, 0, 0.8);
+  --black-70-alpha: rgba(0, 0, 0, 0.7);
+  --black-60-alpha: rgba(0, 0, 0, 0.6);
+  --black-50-alpha: rgba(0, 0, 0, 0.5);
+  --black-40-alpha: rgba(0, 0, 0, 0.4);
+  --black-30-alpha: rgba(0, 0, 0, 0.3);
+  --black-20-alpha: rgba(0, 0, 0, 0.2);
+  --black-10-alpha: rgba(0, 0, 0, 0.1);
+  --black-5-alpha: rgba(0, 0, 0, 0.05);
+  --caution-red-100: #d91c0b;
+  --caution-red-20-alpha: rgba(217, 28, 11, 0.2);
+  --caution-red-5-alpha: rgba(217, 28, 11, 0.05);
+  --caution-red-vivid-100: #ff6a59;
+  --caution-red-vivid-20-alpha: rgba(255, 106, 89, 0.2);
+  --caution-red-vivid-5-alpha: rgba(255, 106, 89, 0.05);
 
   /* Third Party Colors */
   --facebook-blue: #1877f2;
   --twitter-blue: #1da1f2;
   --instagram-pink: #f20076;
 
-  /* UI Colors */
-  /* REVIEW: コントラストを担保するための色組み合わせはここでは担保していない、記述することもできる */
+  /* System Colors */
+  --focus-blue-100: #0091ff;
+  --focus-blue-30-alpha: rgba(0, 145, 255, 0.3);
+
+  /**
+   * Ameba System Color
+   */
+
+  /* Background Colors */
   --color-background: var(--gray-5);
 
+  /* Surface Colors */
   --color-surface-primary: var(--white-100);
   --color-surface-secondary: var(--gray-5);
   --color-surface-tertiary: var(--gray-10);
-  --color-surface-quaternary: var(--gray-20);
   --color-surface-accent-primary: var(--primary-green-70);
   --color-surface-accent-primary-light: var(--primary-green-5);
-  --color-surface-accent-secondary: var(--secondary-green-70);
+  --color-surface-accent-secondary: var(--secondary-green-50);
   --color-surface-accent-secondary-light: var(--secondary-green-5);
-  --color-surface-caution: var(--caution-red);
-  --color-surface-caution-light: var(--caution-red-light);
-  /* REVIEW: expressive, 3rd party surfaceにたすかどうか、色をそのまま使ってもよさそう */
+  --color-surface-caution: var(--caution-red-100);
+  --color-surface-caution-light: var(--caution-red-5-alpha);
 
+  /* Text Colors */
   --color-text-high-emphasis: var(--gray-100);
   --color-text-mid-emphasis: var(--gray-70-alpha);
   --color-text-low-emphasis: var(--gray-60-alpha);
-  --color-text-disabled: var(--gray-50-alpha);
-  --color-text-high-emphasis-white: var(--white-100); /* REVIEW: 色名なってるのが少し気になる */
+  --color-text-disabled: var(--gray-30-alpha);
+  --color-text-high-emphasis-inverse: var(--white-100);
   --color-text-accent-primary: var(--primary-green-80);
   --color-text-accent-secondary: var(--secondary-green-70);
-  --color-text-caution: var(--caution-red);
-  
-  --color-highlight: var(--caution-red-light);
+  --color-text-caution: var(--caution-red-100);
+
+  /* Highlight Colors */
+  --color-highlight-error: var(--caution-red-20);
+  --color-highlight-hover: var(--black-30-alpha);
+  --color-highlight-error: var(--caution-red-20);
+
+  /* Object Colors */
+  --color-object-high-emphasis: var(--gray-100);
+  --color-object-mid-emphasis: var(--gray-70-alpha);
+  --color-object-low-emphasis: var(--gray-60-alpha);
+  --color-object-disable: var(--gray-30-alpha);
+  --color-object-accent-primary: var(--primary-green-70);
+  --color-object-accent-secondary: var(--secondary-green-70);
+  --color-object-caution: var(--caution-red-100);
+  --color-object-high-emphasis-inverse: var(--white-100);
+
+  /* Focus Colors */
+  --color-focus-clarity: var(--focus-blue-100);
+  --color-focus-ambiguous: var(--focus-blue-30-alpha);
+
+  /* Border Colors */
+  --color-border-high-emphasis: var(--gray-60-alpha);
+  --color-border-mid-emphasis: var(--gray-30-alpha);
+  --color-border-low-emphasis: var(--gray-10-alpha);
+  --color-border-accent-primary: var(--primary-green-70);
+  --color-border-high-emphasis-inverse: var(--white-100);
+  --color-border-caution: var(--caution-red-100);
+
+  /* Third Party Colors */
+  --color-third-party-facebook-blue: var(--facebook-blue);
+  --color-third-party-twitter-blue: var(--twitter-blue);
+  --color-third-party-instagram-pink: var(--instagram-pink);
 }
 
 @media (prefers-color-scheme: dark) {
