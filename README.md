@@ -20,4 +20,11 @@ You can import this css by using [postcss-import](https://github.com/postcss/pos
 You need to install [postcss-cssnext](https://github.com/MoOx/postcss-cssnext) to transform the custom properties. If you're familiar with Sass, [custom-properties-sass](https://www.npmjs.com/package/custom-properties-sass) seems useful.
 
 ## Design Guidelines
+
+### v2.x.x
 https://app.frontify.com/d/WNaMzU7K3G6y/amebablog-style-guide#/basics/colors
+
+### v3.x.x (WIP)
+
+Take care to use this version's color palette according to the design system we are developing.
+https://spindle.ameba.design/57edc1abc/p/118eaf-ui-color/b/89e8f0
