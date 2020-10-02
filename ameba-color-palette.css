@@ -162,7 +162,7 @@
 
   /* Text Colors */
   --color-text-high-emphasis: var(--gray-100);
-  --color-text-mid-emphasis: var(--gray-70-alpha);
+  --color-text-medium-emphasis: var(--gray-70-alpha);
   --color-text-low-emphasis: var(--gray-60-alpha);
   --color-text-disabled: var(--gray-30-alpha);
   --color-text-high-emphasis-inverse: var(--white-100);
@@ -177,7 +177,7 @@
 
   /* Object Colors */
   --color-object-high-emphasis: var(--gray-100);
-  --color-object-mid-emphasis: var(--gray-70-alpha);
+  --color-object-medium-emphasis: var(--gray-70-alpha);
   --color-object-low-emphasis: var(--gray-60-alpha);
   --color-object-disable: var(--gray-30-alpha);
   --color-object-accent-primary: var(--primary-green-70);
@@ -191,7 +191,7 @@
 
   /* Border Colors */
   --color-border-high-emphasis: var(--gray-60-alpha);
-  --color-border-mid-emphasis: var(--gray-30-alpha);
+  --color-border-medium-emphasis: var(--gray-30-alpha);
   --color-border-low-emphasis: var(--gray-10-alpha);
   --color-border-accent-primary: var(--primary-green-70);
   --color-border-high-emphasis-inverse: var(--white-100);
