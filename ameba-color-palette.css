@@ -202,10 +202,3 @@
   --color-third-party-twitter-blue: var(--twitter-blue);
   --color-third-party-instagram-pink: var(--instagram-pink);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* TODO: UI Colorsを上書きする */
-    --color-background: var(--gray-100);
-  }
-}
