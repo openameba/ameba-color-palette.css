@@ -1,6 +1,6 @@
 {
   "name": "ameba-color-palette.css",
-  "version": "3.0.0-beta.1",
+  "version": "3.0.0",
   "description": "Ameba Color Palette.",
   "main": "ameba-color-palette.css",
   "scripts": {

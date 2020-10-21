@@ -24,7 +24,7 @@ You need to install [postcss-cssnext](https://github.com/MoOx/postcss-cssnext) t
 ### v2.x.x
 https://app.frontify.com/d/WNaMzU7K3G6y/amebablog-style-guide#/basics/colors
 
-### v3.x.x (WIP)
+### v3.x.x
+This is a version for migrating from v2 to design system. We will remove v2 colors on next major version.
 
-Take care to use this version's color palette according to the design system we are developing.
 https://spindle.ameba.design/57edc1abc/p/118eaf-ui-color/b/89e8f0
