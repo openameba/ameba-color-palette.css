@@ -89,6 +89,15 @@
   --caution-red-vivid-20-alpha: rgba(255, 106, 89, 0.2);
   --caution-red-vivid-5-alpha: rgba(255, 106, 89, 0.05);
 
+  /* Expressive Colors */
+  --expressive-blue: #4795c8;
+  --expressive-green: #4ac3aa;
+  --expressive-purple: #ca5ce6;
+  --expressive-lavender: #755ce6;
+  --expressive-orange: #e6815c;
+  --expressive-yellow: #e6ac5c;
+  --expressive-pink: #e6456a;
+
   /* Third Party Colors */
   --facebook-blue: #1877f2;
   --twitter-blue: #1da1f2;
