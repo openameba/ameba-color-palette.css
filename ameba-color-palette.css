@@ -138,7 +138,6 @@
   /* Highlight Colors */
   --color-highlight-error: var(--caution-red-20);
   --color-highlight-hover: var(--black-30-alpha);
-  --color-highlight-error: var(--caution-red-20);
 
   /* Object Colors */
   --color-object-high-emphasis: var(--gray-100);
