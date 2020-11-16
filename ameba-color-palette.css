@@ -106,6 +106,8 @@
   /* System Colors */
   --focus-blue-100: #0091ff;
   --focus-blue-30-alpha: rgba(0, 145, 255, 0.3);
+  --highlight-yellow-100: #f5e100;
+  --highlight-yellow-30-alpha: rgba(245, 225, 0, 0.3);
 
   /**
    * Ameba Theme
@@ -139,6 +141,7 @@
   /* Highlight Colors */
   --color-highlight-error: var(--caution-red-20);
   --color-highlight-hover: var(--black-30-alpha);
+  --color-highlight-yellow: var(--highlight-yellow-100);
 
   /* Object Colors */
   --color-object-high-emphasis: var(--gray-100);
