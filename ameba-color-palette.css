@@ -135,7 +135,7 @@
   --color-text-disabled: var(--gray-30-alpha);
   --color-text-high-emphasis-inverse: var(--white-100);
   --color-text-accent-primary: var(--primary-green-80);
-  --color-text-accent-secondary: var(--secondary-green-70);
+  --color-text-accent-secondary: var(--secondary-green-80);
   --color-text-caution: var(--caution-red-100);
 
   /* Highlight Colors */
