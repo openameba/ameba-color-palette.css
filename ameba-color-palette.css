@@ -152,6 +152,7 @@
   --color-object-accent-secondary: var(--secondary-green-70);
   --color-object-caution: var(--caution-red-100);
   --color-object-high-emphasis-inverse: var(--white-100);
+  --color-object-expressive-pink: var(--expressive-pink);
 
   /* Focus Colors */
   --color-focus-clarity: var(--focus-blue-100);
