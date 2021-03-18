@@ -174,3 +174,50 @@
   --color-third-party-twitter-blue: var(--twitter-blue);
   --color-third-party-instagram-pink: var(--instagram-pink);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Background Colors */
+    --color-background: var(--gray-100);
+
+    /* Surface Colors */
+    --color-surface-primary: var(--gray-90);
+    --color-surface-secondary: var(--white-5-alpha);
+    --color-surface-tertiary: var(--white-10-alpha);
+    --color-surface-quaternary: var(--white-20-alpha);
+    --color-surface-accent-primary-light: var(--white-5-alpha);
+    --color-surface-accent-secondary: var(--secondary-green-70);
+    --color-surface-accent-secondary-light: var(--white-5-alpha);
+    --color-surface-caution: var(--caution-red-vivid-100);
+    --color-surface-caution-light: var(--white-5-alpha);
+
+    /* Text Colors */
+    --color-text-high-emphasis: var(--white-100);
+    --color-text-medium-emphasis: var(--white-80-alpha);
+    --color-text-low-emphasis: var(--white-60-alpha);
+    --color-text-disabled: var(--white-20-alpha);
+    --color-text-accent-secondary: var(--secondary-green-40);
+    --color-text-caution: var(--caution-red-vivid-100);
+
+    /* Highlight Colors */
+    --color-highlight-error: var(--caution-red-vivid-20-alpha);
+    --color-highlight-hover: var(--white-30-alpha);
+    --color-highlight-yellow: var(--highlight-yellow-30-alpha);
+
+    /* Object Colors */
+    --color-object-high-emphasis: var(--white-100);
+    --color-object-medium-emphasis: var(--white-80-alpha);
+    --color-object-low-emphasis: var(--white-60-alpha);
+    --color-object-disable: var(--white-20-alpha);
+    --color-object-accent-primary: var(--primary-green-50);
+    --color-object-accent-secondary: var(--secondary-green-40);
+    --color-object-caution: var(--caution-red-vivid-100);
+
+    /* Border Colors */
+    --color-border-high-emphasis: var(--white-80-alpha);
+    --color-border-medium-emphasis: var(--white-60-alpha);
+    --color-border-low-emphasis: var(--white-30-alpha);
+    --color-border-accent-primary: var(--primary-green-50);
+    --color-border-caution: var(--caution-red-vivid-100);
+  }
+}
