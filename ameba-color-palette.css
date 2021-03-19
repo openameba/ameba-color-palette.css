@@ -176,7 +176,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* You can disable dark mode even when prefers-color-scheme is dark.  */
+  :root:not([data-amb-theme]),
+  :root[data-amb-theme="dark"] {
     /* Background Colors */
     --color-background: var(--gray-100);
 
