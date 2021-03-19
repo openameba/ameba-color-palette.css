@@ -196,7 +196,7 @@
     --color-text-medium-emphasis: var(--white-80-alpha);
     --color-text-low-emphasis: var(--white-60-alpha);
     --color-text-disabled: var(--white-20-alpha);
-    --color-text-accent-secondary: var(--secondary-green-40);
+    --color-text-accent-secondary: var(--secondary-green-50);
     --color-text-caution: var(--caution-red-vivid-100);
 
     /* Highlight Colors */
@@ -210,13 +210,13 @@
     --color-object-low-emphasis: var(--white-60-alpha);
     --color-object-disable: var(--white-20-alpha);
     --color-object-accent-primary: var(--primary-green-50);
-    --color-object-accent-secondary: var(--secondary-green-40);
+    --color-object-accent-secondary: var(--secondary-green-50);
     --color-object-caution: var(--caution-red-vivid-100);
 
     /* Border Colors */
-    --color-border-high-emphasis: var(--white-80-alpha);
-    --color-border-medium-emphasis: var(--white-60-alpha);
-    --color-border-low-emphasis: var(--white-30-alpha);
+    --color-border-high-emphasis: var(--white-60-alpha);
+    --color-border-medium-emphasis: var(--white-30-alpha);
+    --color-border-low-emphasis: var(--white-20-alpha);
     --color-border-accent-primary: var(--primary-green-50);
     --color-border-caution: var(--caution-red-vivid-100);
   }
