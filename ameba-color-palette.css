@@ -196,6 +196,7 @@
   --color-text-medium-emphasis: var(--white-80-alpha);
   --color-text-low-emphasis: var(--white-60-alpha);
   --color-text-disabled: var(--white-20-alpha);
+  --color-text-accent-primary: var(--primary-green-50);
   --color-text-accent-secondary: var(--secondary-green-50);
   --color-text-caution: var(--caution-red-vivid-100);
 
@@ -244,6 +245,7 @@
     --color-text-medium-emphasis: var(--white-80-alpha);
     --color-text-low-emphasis: var(--white-60-alpha);
     --color-text-disabled: var(--white-20-alpha);
+    --color-text-accent-primary: var(--primary-green-50);
     --color-text-accent-secondary: var(--secondary-green-50);
     --color-text-caution: var(--caution-red-vivid-100);
 
