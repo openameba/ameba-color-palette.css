@@ -121,7 +121,7 @@
 
   /* Surface Colors */
   --color-surface-primary: var(--white-100);
-  --color-surface-secondary: var(--gray-5);
+  --color-surface-secondary: var(--gray-5-alpha);
   --color-surface-tertiary: var(--gray-10-alpha);
   --color-surface-quaternary: var(--gray-20-alpha);
   --color-surface-accent-primary: var(--primary-green-70);
