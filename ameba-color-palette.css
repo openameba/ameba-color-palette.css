@@ -162,6 +162,7 @@
   --color-focus-ambiguous: var(--focus-blue-30-alpha);
 
   /* Border Colors */
+  --color-border-strong-emphasis: var(--gray-100);
   --color-border-high-emphasis: var(--gray-60-alpha);
   --color-border-medium-emphasis: var(--gray-30-alpha);
   --color-border-low-emphasis: var(--gray-10-alpha);
