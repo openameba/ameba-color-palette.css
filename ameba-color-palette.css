@@ -157,6 +157,11 @@
   --color-object-high-emphasis-inverse: var(--white-100);
   --color-object-expressive-pink: var(--expressive-pink);
 
+  /* Overlay Colors */
+  --color-overlay-dark: var(--black-80-alpha);
+  --color-overlay-light: var(--black-20-alpha);
+  --color-overlay-medium: var(--black-60-alpha);
+
   /* Focus Colors */
   --color-focus-clarity: var(--focus-blue-100);
   --color-focus-ambiguous: var(--focus-blue-30-alpha);
