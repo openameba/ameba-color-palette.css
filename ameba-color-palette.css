@@ -179,4 +179,7 @@
   --color-third-party-facebook-blue: var(--facebook-blue);
   --color-third-party-twitter-blue: var(--twitter-blue);
   --color-third-party-instagram-pink: var(--instagram-pink);
+
+  /* System Colors */
+  --color-system-black: var(--black-100);
 }
