@@ -142,7 +142,7 @@
   --color-text-caution: var(--caution-red-100);
 
   /* Highlight Colors */
-  --color-highlight-error: var(--caution-red-20);
+  --color-highlight-error: var(--caution-red-20-alpha);
   --color-highlight-hover: var(--black-30-alpha);
   --color-highlight-yellow: var(--highlight-yellow-100);
 
