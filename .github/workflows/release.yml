@@ -12,7 +12,7 @@ on:
       - release/prerelease
 
 jobs:
-  releaseing:
+  releasing:
     name: releaseing
     runs-on: ubuntu-latest
     steps:
