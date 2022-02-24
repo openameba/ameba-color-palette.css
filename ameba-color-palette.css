@@ -182,4 +182,7 @@
 
   /* System Colors */
   --color-system-black: var(--black-100);
+
+  /* Tap Highlight Colors */
+  --color-tap-highlight-base: var(--gray-5-alpha);
 }
