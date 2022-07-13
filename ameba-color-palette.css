@@ -128,6 +128,7 @@
   --color-surface-accent-primary-light: var(--primary-green-5);
   --color-surface-accent-secondary: var(--secondary-green-50);
   --color-surface-accent-secondary-light: var(--secondary-green-5);
+  --color-surface-accent-neutral: var(--gray-80);
   --color-surface-caution: var(--caution-red-100);
   --color-surface-caution-light: var(--caution-red-5-alpha);
 
