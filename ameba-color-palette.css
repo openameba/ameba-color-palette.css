@@ -176,7 +176,8 @@
 }
 
 /* You can apply dark theme even when prefers-color-scheme is not dark.  */
-:root[data-theme="dark"] {
+:root[data-theme="dark"],
+:root[data-color-scheme="dark"] {
   /* Background Colors */
   --color-background: var(--gray-100);
 
@@ -225,7 +226,9 @@
 @media (prefers-color-scheme: dark) {
   /* You can disable dark theme even when prefers-color-scheme is dark.  */
   :root:not([data-theme]),
-  :root[data-theme="dark"] {
+  :root:not([data-color-scheme]),
+  :root[data-theme="dark"],
+  :root[data-color-scheme="dark"] {
     /* Background Colors */
     --color-background: var(--gray-100);
 
