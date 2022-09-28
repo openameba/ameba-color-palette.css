@@ -96,7 +96,8 @@
   --expressive-lavender: #755ce6;
   --expressive-orange: #e6815c;
   --expressive-yellow: #e6ac5c;
-  --expressive-pink: #e6456a;
+  --expressive-pink-40: #e6456a;
+  --expressive-pink-50: #e02c53;
 
   /* Third Party Colors */
   --facebook-blue: #1877f2;
@@ -140,6 +141,7 @@
   --color-text-accent-primary: var(--primary-green-80);
   --color-text-accent-secondary: var(--secondary-green-80);
   --color-text-caution: var(--caution-red-100);
+  --color-text-expressive-pink: var(--expressive-pink-50);
 
   /* Highlight Colors */
   --color-highlight-error: var(--caution-red-20-alpha);
@@ -155,7 +157,7 @@
   --color-object-accent-secondary: var(--secondary-green-70);
   --color-object-caution: var(--caution-red-100);
   --color-object-high-emphasis-inverse: var(--white-100);
-  --color-object-expressive-pink: var(--expressive-pink);
+  --color-object-expressive-pink: var(--expressive-pink-40);
 
   /* Overlay Colors */
   --color-overlay-dark: var(--black-80-alpha);
