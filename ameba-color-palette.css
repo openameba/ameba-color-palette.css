@@ -188,4 +188,25 @@
 
   /* Tap Highlight Colors */
   --color-tap-highlight-base: var(--gray-5-alpha);
+
+  /* Animation Tokens */
+  --animation-easing-ease-out: cubic-bezier(0, 0, 0, 1);
+  --animation-easing-ease-in-out: cubic-bezier(0.5, 0, 0.5, 1);
+  --animation-duration-fast: 150ms;
+  --animation-duration-neutral: 350ms;
+  --animation-duration-slow: 500ms;
+  --animation-move-duration: var(--animation-easing-ease-out);
+  --animation-move-timing-function: var(--animation-duration-neutral);
+  --animation-appear-in-duration: var(--animation-easing-ease-in-out);
+  --animation-appear-in-timing-function: var(--animation-duration-neutral);
+  --animation-in-view-duration: var(--animation-easing-ease-out);
+  --animation-in-view-timing-function: var(--animation-duration-neutral);
+  --animation-out-of-view-duration: var(--animation-easing-ease-out);
+  --animation-out-of-view-timing-function: var(--animation-duration-neutral);
+  --animation-content-change-duration: var(--animation-easing-ease-out);
+  --animation-content-change-timing-function: var(--animation-duration-neutral);
+  --animation-scale-up-duration: var(--animation-easing-ease-in-out);
+  --animation-scale-up-timing-function: var(--animation-duration-fast);
+  --animation-scale-down-duration: var(--animation-easing-ease-out);
+  --animation-scale-down-timing-function: var(--animation-duration-neutral);
 }
