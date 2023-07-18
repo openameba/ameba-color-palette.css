@@ -1,6 +1,7 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "color-function-notation": "legacy"
+    "color-function-notation": "legacy",
+    "alpha-value-notation": "number"
   }
 }
