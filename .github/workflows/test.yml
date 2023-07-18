@@ -4,27 +4,30 @@ on:
   - push
   - pull_request
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     name: test
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
     strategy:
+      fail-fast: false
       matrix:
         node:
-          - 12
           - 14
+          - 16
+          - 18
+          - 20
+          - lts/*
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/setup-node@v3
         with:
+          cache: npm
           node-version: ${{ matrix.node }}
-      - id: npm-cache
-        run: echo "::set-output name=dir::$(npm config get cache)"
-      - uses: actions/cache@v3
-        with:
-          path: ${{ steps.npm-cache.outputs.dir }}
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
       - run: npm ci
       - run: npm test
