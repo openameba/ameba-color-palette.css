@@ -186,6 +186,10 @@
   --color-third-party-facebook-blue: var(--facebook-blue);
   --color-third-party-twitter-blue: var(--twitter-blue);
   --color-third-party-instagram-pink: var(--instagram-pink);
+  --color-third-party-amazon-yellow: var(--amazon-yellow);
+  --color-third-party-amazon-black: var(--amazon-black);
+  --color-third-party-rakuten-red: var(--rakuten-red);
+  --color-third-party-yahoo-red: var(--yahoo-red);
 
   /* System Colors */
   --color-system-black: var(--black-100);
