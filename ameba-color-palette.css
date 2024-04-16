@@ -107,8 +107,8 @@
   --youtube-red: #f00;
   --amazon-yellow: #f90;
   --amazon-black: #000;
-  --rakuten-red: #bf0000;
-  --yahoo-red: #f03;
+  --rakuten: #bf0000;
+  --yahoo: #f03;
 
   /* System Colors */
   --focus-blue-100: #0091ff;
@@ -191,8 +191,8 @@
   --color-third-party-youtube-red: var(--youtube-red);
   --color-third-party-amazon-yellow: var(--amazon-yellow);
   --color-third-party-amazon-black: var(--amazon-black);
-  --color-third-party-rakuten-red: var(--rakuten-red);
-  --color-third-party-yahoo-red: var(--yahoo-red);
+  --color-third-party-rakuten-red: var(--rakuten);
+  --color-third-party-yahoo-red: var(--yahoo);
 
   /* System Colors */
   --color-system-black: var(--black-100);
