@@ -100,11 +100,22 @@
 
   /* Third Party Colors */
   --facebook-blue: #1877f2;
+  --facebook-white: #fff;
   --twitter-blue: #1da1f2;
+  --twitter-white: #fff;
+  --x-black: #000;
+  --x-white: #fff;
   --instagram-pink: #f20076;
   --apple-black: #000;
   --apple-white: #fff;
   --youtube-red: #f00;
+  --youtube-white: #fff;
+  --amazon-yellow: #f90;
+  --amazon-black: #000;
+  --rakuten-red: #bf0000;
+  --rakuten-white: #fff;
+  --yahoo-red: #f03;
+  --yahoo-white: #fff;
 
   /* System Colors */
   --focus-blue-100: #0091ff;
@@ -180,8 +191,22 @@
 
   /* Third Party Colors */
   --color-third-party-facebook-blue: var(--facebook-blue);
+  --color-third-party-facebook-white: var(--facebook-white);
   --color-third-party-twitter-blue: var(--twitter-blue);
+  --color-third-party-twitter-white: var(--twitter-white);
+  --color-third-party-x-blue: var(--x-blue);
+  --color-third-party-x-white: var(--x-white);
   --color-third-party-instagram-pink: var(--instagram-pink);
+  --color-third-party-apple-black: var(--apple-black);
+  --color-third-party-apple-white: var(--apple-white);
+  --color-third-party-youtube-red: var(--youtube-red);
+  --color-third-party-youtube-white: var(--youtube-white);
+  --color-third-party-amazon-yellow: var(--amazon-yellow);
+  --color-third-party-amazon-black: var(--amazon-black);
+  --color-third-party-rakuten-red: var(--rakuten-red);
+  --color-third-party-rakuten-white: var(--rakuten-white);
+  --color-third-party-yahoo-red: var(--yahoo-red);
+  --color-third-party-yahoo-white: var(--yahoo-white);
 
   /* System Colors */
   --color-system-black: var(--black-100);
