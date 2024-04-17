@@ -100,15 +100,22 @@
 
   /* Third Party Colors */
   --facebook-blue: #1877f2;
+  --facebook-white: #fff;
   --twitter-blue: #1da1f2;
+  --twitter-white: #fff;
+  --x-black: #000;
+  --x-white: #fff;
   --instagram-pink: #f20076;
   --apple-black: #000;
   --apple-white: #fff;
   --youtube-red: #f00;
+  --youtube-white: #fff;
   --amazon-yellow: #f90;
   --amazon-black: #000;
-  --rakuten: #bf0000;
-  --yahoo: #f03;
+  --rakuten-red: #bf0000;
+  --rakuten-white: #fff;
+  --yahoo-red: #f03;
+  --yahoo-white: #fff;
 
   /* System Colors */
   --focus-blue-100: #0091ff;
