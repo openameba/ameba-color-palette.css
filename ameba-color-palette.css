@@ -195,6 +195,7 @@
   --color-third-party-twitter-blue: var(--twitter-blue);
   --color-third-party-twitter-white: var(--twitter-white);
   --color-third-party-x-blue: var(--x-blue); /* deprecated. --x-blue- is undefined. specifying it won't change the color. */
+  --color-third-party-x-black: var(--x-black);
   --color-third-party-x-white: var(--x-white);
   --color-third-party-instagram-pink: var(--instagram-pink);
   --color-third-party-apple-black: var(--apple-black);
