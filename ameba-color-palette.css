@@ -143,6 +143,8 @@
   --color-surface-accent-neutral-medium-emphasis: var(--gray-60-alpha);
   --color-surface-caution: var(--caution-red-100);
   --color-surface-caution-light: var(--caution-red-5-alpha);
+  --color-surface-positive: var(--primary-green-70);
+  --color-surface-positive-light: var(--primary-green-5);
 
   /* Text Colors */
   --color-text-high-emphasis: var(--gray-100);
@@ -153,6 +155,7 @@
   --color-text-accent-primary: var(--primary-green-80);
   --color-text-accent-secondary: var(--secondary-green-80);
   --color-text-caution: var(--caution-red-100);
+  --color-text-positive: var(--primary-green-80);
 
   /* Highlight Colors */
   --color-highlight-error: var(--caution-red-20-alpha);
@@ -167,6 +170,7 @@
   --color-object-accent-primary: var(--primary-green-70);
   --color-object-accent-secondary: var(--secondary-green-70);
   --color-object-caution: var(--caution-red-100);
+  --color-object-positive: var(--primary-green-70);
   --color-object-high-emphasis-inverse: var(--white-100);
   --color-object-expressive-pink: var(--expressive-pink);
 
