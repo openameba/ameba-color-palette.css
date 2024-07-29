@@ -1,0 +1,24 @@
+name: deploying
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  deploying:
+    name: deploying
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get version number from tag name
+        run: echo VERSION=${GITHUB_REF#refs/tags/v} >> $GITHUB_ENV
+      - uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Deploy to Cloud Storage
+        run: |
+          gsutil -h "Cache-Control:public, max-age=31536000, immutable" -z css cp ameba-color-palette.css gs://${{ secrets.GCS_BUCKET }}/packages/@openameba/ameba-color-palette.css@${{ env.VERSION }}/ameba-color-palette.css
+          gsutil -h "Cache-Control:public, max-age=300" -z css cp ameba-color-palette.css gs://${{ secrets.GCS_BUCKET }}/packages/@openameba/ameba-color-palette.css/ameba-color-palette.css
