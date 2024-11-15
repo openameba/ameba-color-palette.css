@@ -27,8 +27,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
           registry-url: 'https://registry.npmjs.org'
+      - id: npm-cache
+        run: echo "dir=$(npm config get cache)" | tee -a "$GITHUB_OUTPUT"
+      - id: npm-cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ steps.npm-cache.outputs.dir }}
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            npm-
       - name: Set git user
         run: |
           git config --global user.name 'github-actions[bot]'
