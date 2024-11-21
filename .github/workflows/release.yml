@@ -21,17 +21,17 @@ jobs:
       pull-requests: write
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
       - id: npm-cache
         run: echo "dir=$(npm config get cache)" | tee -a "$GITHUB_OUTPUT"
       - id: npm-cache-restore
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
           path: ${{ steps.npm-cache.outputs.dir }}
           key: npm-${{ hashFiles('package-lock.json') }}
