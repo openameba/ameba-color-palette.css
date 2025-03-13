@@ -167,7 +167,7 @@
   --color-hover-outlined-button: var(--primary-green-5);
   --color-hover-netural-button: var(--gray-20-alpha);
   --color-hover-lighted-button: var(--primary-green-10);
-  --color-hover-caution-button: var(--caution-red-5-alpha);
+  --color-hover-danger-button: var(--caution-red-5-alpha);
 
   /* Object Colors */
   --color-object-high-emphasis: var(--gray-100);
