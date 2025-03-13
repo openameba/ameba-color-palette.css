@@ -162,6 +162,13 @@
   --color-highlight-hover: var(--black-30-alpha);
   --color-highlight-yellow: var(--highlight-yellow-100);
 
+  /* Hover Colors */
+  --color-hover-contained-button: var(--primary-green-100);
+  --color-hover-outlined-button: var(--primary-green-5);
+  --color-hover-neutral-button: var(--gray-20-alpha);
+  --color-hover-lighted-button: var(--primary-green-10);
+  --color-hover-danger-button: var(--caution-red-5-alpha);
+
   /* Object Colors */
   --color-object-high-emphasis: var(--gray-100);
   --color-object-medium-emphasis: var(--gray-70-alpha);
