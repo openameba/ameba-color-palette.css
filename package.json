@@ -18,7 +18,7 @@
   "homepage": "https://github.com/openameba/ameba-color-palette.css#readme",
   "devDependencies": {
     "stylelint": "16.18.0",
-    "stylelint-config-standard": "37.0.0"
+    "stylelint-config-standard": "38.0.0"
   },
   "files": [
     "ameba-color-palette.css"
