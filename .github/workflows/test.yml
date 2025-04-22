@@ -27,19 +27,7 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: ${{ matrix.node }}
-      - id: npm-cache
-        run: echo "dir=$(npm config get cache)" | tee -a "$GITHUB_OUTPUT"
-      - id: npm-cache-restore
-        uses: actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
-        with:
-          path: ${{ steps.npm-cache.outputs.dir }}
-          key: npm-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            npm-
-      - run: npm ci
+      - uses: openameba/action-npm-cache/restore@bc5633e94971615a98562d936df5a4c20b8ef1fc # v1.1.0
       - run: npm test
-      - uses: actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
-        if: github.ref_name == 'main'
-        with:
-          path: ${{ steps.npm-cache.outputs.dir }}
-          key: ${{ steps.npm-cache-restore.outputs.cache-primary-key }}
+      - if: github.ref_name == 'main'
+        uses: openameba/action-npm-cache/save@bc5633e94971615a98562d936df5a4c20b8ef1fc # v1.1.0
