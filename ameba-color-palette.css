@@ -97,6 +97,8 @@
   --expressive-orange: #e6815c;
   --expressive-yellow: #e6ac5c;
   --expressive-pink: #e6456a;
+  --expressive-pink-5: #fce4e9;
+  --expressive-pink-50: #e02c53;
 
   /* Third Party Colors */
   --facebook-blue: #1877f2;
@@ -145,6 +147,8 @@
   --color-surface-caution-light: var(--caution-red-5-alpha);
   --color-surface-positive: var(--primary-green-70);
   --color-surface-positive-light: var(--primary-green-5);
+  --color-surface-expressive-pink-5: var(--expressive-pink-5);
+  --color-surface-expressive-pink-50: var(--expressive-pink-50);
 
   /* Text Colors */
   --color-text-high-emphasis: var(--gray-100);
@@ -156,6 +160,7 @@
   --color-text-accent-secondary: var(--secondary-green-80);
   --color-text-caution: var(--caution-red-100);
   --color-text-positive: var(--primary-green-80);
+  --color-text-expressive-pink-50: var(--expressive-pink-50);
 
   /* Highlight Colors */
   --color-highlight-error: var(--caution-red-20-alpha);
@@ -205,7 +210,9 @@
   --color-third-party-facebook-white: var(--facebook-white);
   --color-third-party-twitter-blue: var(--twitter-blue);
   --color-third-party-twitter-white: var(--twitter-white);
-  --color-third-party-x-blue: var(--x-blue); /* deprecated. --x-blue- is undefined. specifying it won't change the color. */
+  --color-third-party-x-blue: var(
+    --x-blue
+  ); /* deprecated. --x-blue- is undefined. specifying it won't change the color. */
   --color-third-party-x-black: var(--x-black);
   --color-third-party-x-white: var(--x-white);
   --color-third-party-instagram-pink: var(--instagram-pink);
