@@ -107,6 +107,7 @@
   --x-black: #000;
   --x-white: #fff;
   --instagram-pink: #f20076;
+  --instagram-white: #fff;
   --apple-black: #000;
   --apple-white: #fff;
   --youtube-red: #f00;
@@ -170,6 +171,13 @@
   --color-hover-lighted-button: var(--primary-green-10);
   --color-hover-danger-button: var(--caution-red-5-alpha);
 
+  /* Active Colors */
+  --color-active-contained-button: var(--primary-green-100);
+  --color-active-outlined-button: var(--primary-green-5);
+  --color-active-neutral-button: var(--gray-10-alpha);
+  --color-active-lighted-button: var(--primary-green-10);
+  --color-active-danger-button: var(--caution-red-5-alpha);
+
   /* Object Colors */
   --color-object-high-emphasis: var(--gray-100);
   --color-object-medium-emphasis: var(--gray-70-alpha);
@@ -194,7 +202,7 @@
 
   /* Border Colors */
   --color-border-strong-emphasis: var(--gray-100);
-  --color-border-high-emphasis: var(--gray-60-alpha);
+  --color-border-high-emphasis: var(--gray-50-alpha);
   --color-border-medium-emphasis: var(--gray-30-alpha);
   --color-border-low-emphasis: var(--gray-10-alpha);
   --color-border-accent-primary: var(--primary-green-70);
@@ -211,6 +219,7 @@
   --color-third-party-x-black: var(--x-black);
   --color-third-party-x-white: var(--x-white);
   --color-third-party-instagram-pink: var(--instagram-pink);
+  --color-third-party-instagram-white: var(--instagram-white);
   --color-third-party-apple-black: var(--apple-black);
   --color-third-party-apple-white: var(--apple-white);
   --color-third-party-youtube-red: var(--youtube-red);
