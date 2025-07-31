@@ -174,7 +174,7 @@
   /* Active Colors */
   --color-active-contained-button: var(--primary-green-100);
   --color-active-outlined-button: var(--primary-green-5);
-  --color-active-neutral-button: var(--gray-10-alpha);
+  --color-active-neutral-button: var(--gray-20-alpha);
   --color-active-lighted-button: var(--primary-green-10);
   --color-active-danger-button: var(--caution-red-5-alpha);
 
