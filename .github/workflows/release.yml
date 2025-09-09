@@ -17,8 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      id-token: write
-      pull-requests: write
+      id-token: write # Required for OIDC
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
@@ -28,6 +27,8 @@ jobs:
         with:
           node-version: 22
           registry-url: 'https://registry.npmjs.org'
+      - name: Ensure npm 11.5.1 or later is installed for OIDC
+        run: npm install -g npm@latest
       - id: npm-cache
         run: echo "dir=$(npm config get cache)" | tee -a "$GITHUB_OUTPUT"
       - id: npm-cache-restore
@@ -44,9 +45,7 @@ jobs:
       - name: Versioning
         run: npm version "${GITHUB_REF##*/}"
       - name: Publish to npm
-        run: npm publish --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish
       - name: Push updates
         run: |
           git push origin ${{ github.ref_name }}
