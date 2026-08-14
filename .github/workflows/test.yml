@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: ${{ matrix.node }}
-      - uses: openameba/action-npm-cache/restore@bc5633e94971615a98562d936df5a4c20b8ef1fc # v1.1.0
+      - uses: openameba/action-npm-cache/restore@af6e98076ee69d0eb6f0b6550233164833822142 # v1.2.1
       - run: npm test
       - if: github.ref_name == 'main'
-        uses: openameba/action-npm-cache/save@bc5633e94971615a98562d936df5a4c20b8ef1fc # v1.1.0
+        uses: openameba/action-npm-cache/save@af6e98076ee69d0eb6f0b6550233164833822142 # v1.2.1
